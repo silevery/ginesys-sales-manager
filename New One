@@ -1,0 +1,185 @@
+* text=auto
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+node_modules/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+{
+  "name": "ginesys-sales-manager",
+  "version": "1.0.0",
+  "description": "Sales Management & Activity Tracking System - Ginesys ERP & POS",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "^0.263.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
+# Sales Manager - Ginesys ERP & POS
+
+A comprehensive sales management & activity tracking system for Ginesys sales teams.
+
+## 🎯 Features
+
+- **Sales Rep Dashboard** - Track daily activities, deals, and tasks
+- **Manager Dashboard** - Team overview, performance metrics, pipeline
+- **Daily Activity Reports (DAR)** - Comprehensive daily reporting
+- **Deal Pipeline Management** - Track leads through sales stages
+- **Task Management** - Assign and track team tasks
+- **Team Leaderboard** - Performance comparison and motivation
+- **Activity Logging** - Calls, demos, meetings (all types)
+- **No Backend Required** - All data stored locally in browser
+
+## 👥 Team Members
+
+**Manager:** Srinivas
+
+**Sales Representatives:**
+1. Kamal alawadhi
+2. Simmi Khan
+3. Ajay Singh Chauhan
+4. Bhargav Oza
+5. Soubhik Mahata
+6. Yaqub Shaik
+7. Maharshi Vastrala
+8. Nawab Suhail
+9. Aswanth
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/ginesys-sales-manager.git
+cd ginesys-sales-manager
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+The app will open at `http://localhost:3000`
+
+## 📱 Usage
+
+### For Sales Reps
+1. Log in with your name (no password needed)
+2. Dashboard - View today's metrics and pending tasks
+3. Activities - Log calls, demos, and meetings
+4. DAR Sheet - Submit daily activity report
+5. My Deals - Track your deals through the pipeline
+6. My Tasks - View and complete assigned tasks
+7. Leaderboard - See team performance rankings
+
+### For Manager (Srinivas)
+1. Log in as "Srinivas"
+2. Dashboard - Get team overview and KPIs
+3. Team Overview - View individual rep details
+4. Pipeline - See all deals by stage
+5. Task Management - Assign tasks to team members
+6. DAR Reports - Review daily reports from all reps
+
+## 💾 Data Storage
+
+All data is stored in browser local storage. No backend server required.
+
+## 🎯 Daily Activity Report Metrics
+
+1. Calls Made
+2. Demos Given
+3. Negotiation Calls
+4. Onsite Meetings
+5. Online Meetings
+6. Internal Meetings
+7. Self Leads Generated
+8. Leads Converted
+9. Closures
+
+## 📊 Sales Pipeline Stages
+
+- **Lead** - New prospect
+- **Opportunity** - Shows interest
+- **Negotiation** - In active discussion
+- **Closed Won** - Deal completed
+- **Closed Lost** - Did not convert
+
+## 🏆 Team Leaderboard Scoring
+
+- Won Deal = 10 points
+- Self Generated Lead = 5 points
+- Activity = 1 point
+
+## 🔐 Security
+
+- No authentication backend (demo version)
+- All data stored locally in browser
+- Data persists even after closing browser
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push code to GitHub
+2. Go to https://vercel.com
+3. Click "New Project"
+4. Select your GitHub repository
+5. Click "Deploy"
+6. Share your live URL with the team
+
+## 📞 Support
+
+For issues or feature requests, contact the development team.
+
+## 📄 License
+
+All rights reserved - Ginesys Sales Team
+
+---
+
+**Version:** 1.0.0  
+**Last Updated:** 2026-03-05
